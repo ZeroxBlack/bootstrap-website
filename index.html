@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <!-- Bootstrap v4.5 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+</head>
+<body>
+ <!-- NAVIGATION -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+                <a class="navbar-brand" href="#">Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link fa fa-home" href="#header"> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fa fa-folder-open" href="#proyects"> Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fa fa-envelope" href="#contact"> Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fa fa-link" href="#social"> Redes Sociales</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+<!-- Header -->
+ <header id="header" class="header-img">
+    <div class="header-background">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-md-12">
+                    <div class="header-content animate__animated animate__pulse">
+                        <h1 class="display-3">Ingeniero en Informática</h1>
+                        <P class="mt-4">Me llamo Kevin Aguayo, soy desarrollador Web, poseo conocimientos en HTML, CSS, MySQL y JavaScript, he realizado algunos desarrollos en JAVA,
+                            actualmente me encuentro estudiando de manera autonoma Node JS.
+                        </P>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="container mt-5 text-center">
+            <div class="row">
+                <div class="col-md-2 animate__animated animate__shakeX">
+                    <img src="img/html5.png" style="width: 90%;">
+                </div>
+                <div class="col-md-2 animate__animated animate__shakeX">
+                    <img src="img/css.png" style="width: 90%;">
+                </div>
+                 <div class="col-md-2 animate__animated animate__shakeX">
+                    <img src="img/mysql.png" style="width: 90%;">
+                </div>
+                <div class="col-md-2 animate__animated animate__shakeX">
+                    <img src="img/js.png" style="width: 90%;">
+                </div>
+                <div class="col-md-2 animate__animated animate__shakeX">
+                    <img src="img/java.png" style="width: 90%;">
+                </div>
+                <div class="col-md-2 animate__animated animate__shakeX">
+                    <img src="img/nodejs.png" style="width: 90%;">
+                </div>
+            </div>
+        </div>
+    </div>
+ </header>
+
+ <!-- Proyects -->
+ <section id="proyects">
+     <div class="container mt-5">
+         <div class="row">
+             <div class="col-md-6">
+                <div class="header-content-left">
+                    <img src="img/screenshot1.png" style="width: 100%;">
+                </div>
+             </div>
+             <div class="col-md-6">
+                <div class="header-content-right">
+                    <h1>Node Js + HTML</h1>
+                    <p>Primer sitio Web hecho con Node Js y HTML</p>
+                </div>
+                <a href="https://github.com/ZeroxBlack/Firstwebsite-NodeJs" class="btn btn-info">Ver Más</a>
+            </div>
+         </div>
+     </div>
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+               <div class="header-content-right">
+                   <h1>Notes App</h1>
+                   <p>Aplicación para guardar notas, links, tareas, etc. Con registro y login de usuarios, 
+                      hecha con Node Js, HTML y MySQL.
+                   </p>
+               </div>
+               <a href="https://github.com/ZeroxBlack/App-NodeJs-MySQL" class="btn btn-info">Ver Más</a>
+           </div>
+           <div class="col-md-6">
+            <div class="header-content-left">
+                <img src="img/screenshot2.png" style="width: 100%;">
+            </div>
+         </div>
+        </div>
+    </div>
+ </section>
+
+<!-- Contact -->
+ <footer id="contact">
+     <div class="container mt-5">
+         <div class="row">
+             <div class="col-md-7">
+                 <form class="card">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info btn-block">Enviar</button>
+                    </div>
+                 </form>
+             </div>
+             <div class="col-md-5 mt-5 text-center">
+                 <img src="img/correo.png" style="width: 55%;">
+                 <p>Formulario solo de referencia, en construcción...</p>
+             </div>
+         </div>
+     </div>
+ </footer>
+
+<!-- Social Links -->
+<section id="social" class="social">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="info-left text-center">
+                    <a href="https://www.linkedin.com/in/kevin-aguayo-9ab6151a7/"><img href="" src="img/linkedin.png" alt="linkedin" style="width: 20%;"></a>
+                    <p>LinkedIn</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="info-right">
+                    <a href="https://github.com/ZeroxBlack"><img src="img/github.png" alt="github" style="width: 20%;"></a>
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <div class="container text-center text-white">
+    <p>ZeroxBlack 2020 &copy;</p>
+ </div>
+
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Smooth Scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

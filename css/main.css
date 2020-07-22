@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: #ADA996;
+    background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+}
+
+header {
+    margin-top: 55px;
+}
+
+.header-img {
+    background: url("../img/image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-background {
+    background: rgba(62, 110, 110, 0.5);
+}
